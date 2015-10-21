@@ -16,7 +16,7 @@ You can use these classes in your styleguide to show styles that else would been
 3. set a data attribute `data-debug="true"` on the script tag and see some debug output.
 
 ## Example
-For an example look at [tests/index.html](https://github.com/justb81/jsFakePseudoClasses/blob/master/tests/index.html)
+For an example look at [tests/index.html](tests/index.html)
 
 # License
 MIT License
