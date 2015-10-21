@@ -9,21 +9,33 @@
 <h1>Headline</h1>
 <nav>
     <a href="#test1">Test1</a>
-    <a href="#test2">Test1</a>
-    <a href="#test3">Test1</a>
+    <a href="#test1" class="fake-hover">Test1</a>
+    <a href="#test1" class="fake-active">Test1</a>
+    <a href="#test1-fake" class="fake-visited">Test1</a>
+    <a href="#test2">Test2</a>
+    <a href="#test3">Test3</a>
 </nav>
+<form>
+    <label>Search <input type="search"></label><br />
+    <label>Search focused<input type="search" class="fake-focus"></label><br />
+    <label>Search invalid<input type="search" class="fake-invalid"></label>
+</form>
 <section id="test1">
-    <h2>Headline 2</h2>
+    <h2>Subheadline 1</h2>
+    <p>Lorem Ipsum Dolor et amet</p>
+</section>
+<section id="test1-targeted" class="fake-target">
+    <h2>Subheadline 1 (Fake Target)</h2>
     <p>Lorem Ipsum Dolor et amet</p>
 </section>
 <section id="test2">
-    <h2>Headline 2</h2>
+    <h2>Subheadline 2</h2>
     <p>Lorem Ipsum Dolor et amet</p>
 </section>
 <section id="test3">
-    <h2>Headline 2</h2>
+    <h2>Subheadline 3</h2>
     <p>Lorem Ipsum Dolor et amet</p>
 </section>
-<script src="../src/fake-pseudo-classes.js"></script>
+<script src="../src/fake-pseudo-classes.js" data-debug="true"></script>
 </body>
 </html>
