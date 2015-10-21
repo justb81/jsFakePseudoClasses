@@ -1,0 +1,40 @@
+html,body {
+    font-size:100%;
+    margin:0;
+    padding:1em;
+}
+
+nav > a {
+    text-decoration: none;
+}
+nav > a:hover {
+    color: red;
+}
+nav > a:active {
+    text-decoration: underline;
+}
+nav > a:visited {
+    text-decoration: underline;
+}
+nav > a:focus {
+    font-weight: 700;
+}
+
+section:target{
+    border: 1px dotted #a0a0a0;
+    background-color: #aeaeae;
+}
+
+input[type=search] {
+    border: 1px solid #aeaeae;
+}
+input[type=search]:focus {
+    background-color: #aeaeae;
+    border: 1px solid #0e0e0e;
+}
+input[type=search]:valid {
+    border: 1px solid green;
+}
+input[type=search]:invalid {
+    border: 1px solid red;
+}
