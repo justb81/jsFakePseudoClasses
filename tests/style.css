@@ -1,0 +1,20 @@
+html,body {
+    font-size:100%;
+    margin:0;
+    padding:0;
+}
+
+nav > a:hover {
+    color: red;
+}
+nav > a:active {
+    text-decoration: underline;
+}
+nav > a:focus {
+    font-weight: 700;
+}
+
+section:target{
+    border: 1px dotted #f0f0f0;
+    background-color: #fefefe;
+}
